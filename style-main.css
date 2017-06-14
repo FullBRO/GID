@@ -6,12 +6,8 @@
   bottom:0;
   right:20px;
   margin-bottom: 15px;
-  background: #dadada;
+  background: #dcdcdc;
   border-radius:10px 3px 3px 10px;
-  opacity: .7;
-}
-.email-label{
-	color: #a3a3a3;
 }
 
 .navbar-brand img{
@@ -30,16 +26,4 @@
 
 
 
-
-
-
-
-
-
-@media screen and(max-width: 768px){
-	.subscribe{
-		margin-bottom: -10px;
-		margin-right: -10px;
-	}
-}
 
