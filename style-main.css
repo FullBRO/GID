@@ -8,7 +8,7 @@
   margin-bottom: 15px;
   background: #dcdcdc;
   border-radius:10px 3px 3px 10px;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .navbar-brand img{
@@ -20,6 +20,10 @@
 
 .email-label{
 	opacity: 1;
+}
+
+#footer{
+	margin-top:20px;
 }
 
 
