@@ -1,14 +1,17 @@
-if (!$.cookie('subscribe') == 'subscribed') {
-	$('.subscribe').show(1);
+if (!$.cookie('subscribe') === 'subscribed') {
+	$('.subscribe').show();
+	$('dlt-cookies').hide();
 } else {
-	$('.subscribe').hide(1);
+	$('.subscribe').hide();
+	$('dlt-cookies').show();
 }
 
 
 $(".sub-btn").on('click', function subscribe () {
-	$.cookie( 'subscribe', 'subscribed')
+	$.cookie( 'subscribe', 'subscribed');
 });
 
-$(".dlt-cookies").on('click', function cookie_delete () {
-	$.cookie('subscribe', 'unsubscribed')
-})
+$(".dlt-cookies").on('click', function showSub () {
+	$.cookie('subscribe', null);
+	$('.subscribe').show();
+});
