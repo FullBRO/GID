@@ -1,5 +1,7 @@
 
-
+body{
+  margin-bottom:60px;
+}
 
 .subscribe{
   position:fixed;
@@ -34,6 +36,9 @@
 .dis-btn{
   display:none;
 }
+
+
+
 
 
 
